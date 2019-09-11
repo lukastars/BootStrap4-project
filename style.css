@@ -181,6 +181,27 @@ body::-webkit-scrollbar-thumb {
     font-size: 14px;
 }
 
+
+.counter-section {
+    margin: 10% auto;
+    color: #5f1782;
+}
+
+.icon-box {
+    border: 0px solid #7b1798;
+    height: 100px;
+    widows: 100px;
+    margin: 20px auto;
+   
+}
+.counter-box p {
+    font-size: 20px;
+}
+.counter-box .counter {
+    font-size: 80px;
+}
+
+
 /*-------social-media Section-----------*/
 
 

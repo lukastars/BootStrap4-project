@@ -6,6 +6,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+    crossorigin="anonymous"></script>    
     <script src="script.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
@@ -110,6 +117,31 @@
 </div>
 </div>
 </div>
+<div class="container counter-section">
+  <div class="row text-center">
+  <div class="col-md-3 counter-box">
+  <div class="icon-box"><img src="images/business.png"></div>
+    <p class="num counter">1000</p>  
+  <p>+ PROJECTS COMPLETED</p>  
+  </div>
+  <div class="col-md-3 counter-box">
+    <div class="icon-box"><img src="images/clients.png"  style="width: 128px;height: 128px;"></div>
+      <p class="num counter">750</p>  
+    <p>+ Clients  Worked With</p>  
+    </div>
+    <div class="col-md-3 counter-box">
+      <div class="icon-box"><img src="images/customer-review.png"  style="width: 128px;height: 128px;"></div>
+        <p class="num counter">2000</p>  
+      <p>+ Testimonials</p>  
+      </div>
+      <div class="col-md-3 counter-box">
+        <div class="icon-box"><img src="images/one-hundred.png"  style="width: 128px;height: 128px;"></div>
+          <p class="num counter">100</p>  
+        <p>% Satisfaction</p>  
+        </div>
+     
+  </div>
+  </div>
 </section>
 <!-------Testimonisld---------->
 <section id="testimonials">
@@ -178,5 +210,15 @@
    <script>
      new WOW().init();
    </script>
+<!---------Counter------------>
+<script src="jquery.counterup.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script type="text/javascript">
+ $(".num").counterUp({delay:10,time:1000});
+</script>
+ 
+ 
+
+   
 </body>
 </html>
